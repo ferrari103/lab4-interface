@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="classic.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Event Handlers</h2>
+
+    <button onclick="myFunction()">Click me</button>
+    <p id="demo"></p>
+
+    <p>Mouse over the rectangle above, and get the coordinates of your mouse pointer.</p>
+    <div class = "ramka" onmousemove="myFunction1(event)" onmouseout="clearCoor()"></div>
+    <p id="demo1"></p>
+    
+    <p>Write something in the text field to trigger a function.</p>
+    <input type="text" id="myInput" oninput="myFunction3()">
+    <p id="demo2"></p>
+
+    <script  src="./function.js"></script>
+</body>
+
+</html>
